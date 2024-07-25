@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Selenium Object Locator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+<h1>Extract Locators</h1>
+<div>
+    <input type="checkbox" id="typeDiv" checked>
+    <label for="typeDiv">Div</label><br>
+    <input type="checkbox" id="typeText" checked>
+    <label for="typeText">Text (p, span, a)</label><br>
+    <input type="checkbox" id="typeButton" checked>
+    <label for="typeButton">Button (button, input[type="button"], input[type="submit"])</label><br>
+</div>
+<button id="extractButton">Extract Locators</button>
+<div id="result"></div>
+<script src="popup.js"></script>
+</body>
+</html>
